@@ -1,8 +1,13 @@
+/* ================================= 
+  Base Styles
+==================================== */
+
 * {
  box-sizing: border-box;
 }
 body {
-	background:white;
+ background:white;
+ font-family: Arial, Helvetica, sans-serif;
 }
 
 .grid{
@@ -19,6 +24,7 @@ img {
     height: 200px;
     object-fit: cover;
 }
+
 input {
  width: 23%;
  text-align: center;
@@ -27,5 +33,10 @@ input {
  margin-top: 25px;
  margin-bottom: 25px;
  padding: 10px;
+ border-radius: 10px;
+ border: 2px solid lightgray;
 }
 
+input:hover {
+ border: 2px solid lightblue;
+}
